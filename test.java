@@ -1,7 +1,8 @@
 public class HelloWorld {
     public static void main(String args[]){
         int[] arrayOfNumbers = {5,4,3,2,1};
-        int res = 1+2;
+        int res = sort(arrayOfNumbers, 5);
+        int check = 1;
     }
     public static int sort(int[] x, int n){
         int i, j, save, im1;
