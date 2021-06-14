@@ -1,4 +1,6 @@
 public class HelloWorld {
+    public static int a = 5;
+    public static int b = 6;
     public static void main(String args[]){
         int[] arrayOfNumbers = {5,4,3,2,1};
         int res = sort(arrayOfNumbers, 5);
@@ -18,6 +20,7 @@ public class HelloWorld {
                 }
             }
         }
+        int z = HelloWorld.a + HelloWorld.b;
         return 0;
     }
 }
