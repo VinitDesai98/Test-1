@@ -1,4 +1,8 @@
 public class HelloWorld {
+    enum Color
+    {
+        RED, GREEN, BLUE;
+    }
     public static int a = 5;
     public static int b = 6;
     public static final int z = 101;
@@ -6,6 +10,7 @@ public class HelloWorld {
         int[] arrayOfNumbers = {5,4,3,2,1};
         int res = sort(arrayOfNumbers, 5);
         int check = 1;
+        Color c1 = Color.RED;
     }
     public static int sort(int[] x, int n){
         int i, j, save, im1;
