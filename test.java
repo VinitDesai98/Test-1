@@ -7,6 +7,9 @@ public class HelloWorld {
     public static int b = 6;
     public static final int z = 101;
     public static void main(String args[]){
+        int value = 21;
+        assert value >= 20 : "Test";
+        assert (value==21);
         int[] arrayOfNumbers = {5,4,3,2,1};
         int res = sort(arrayOfNumbers, 5);
         int check = 1;
