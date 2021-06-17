@@ -14,6 +14,14 @@ public class HelloWorld {
         int res = sort(arrayOfNumbers, 5);
         int check = 1;
         Color c1 = Color.RED;
+        switch(check){
+            case 1: 
+                value++;
+                break;
+            default:
+                value--;
+                break;
+        }
     }
     public static int sort(int[] x, int n){
         int i, j, save, im1;
